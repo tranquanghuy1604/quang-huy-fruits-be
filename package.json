@@ -1,0 +1,41 @@
+{
+  "name": "datn_be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.882.0",
+    "axios": "^0.21.1",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "dayjs": "^1.10.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "external-ip": "^2.3.1",
+    "generate-password": "^1.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.30.1",
+    "mongoose": "^5.12.1",
+    "multer": "^1.4.5-lts.1",
+    "node-mailjet": "^3.3.4",
+    "node-vnpay": "^1.0.1",
+    "nodemailer": "^6.9.14",
+    "qs": "^6.12.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.7"
+  }
+}
